@@ -34,7 +34,15 @@
 *.exe
 *.out
 *.app
+maze
+
+# CMakeLists
+CMakeLists.txt
 
 # Bashscripts
+*.sh
+
+# Folders
+Release
 
 # End of https://www.gitignore.io/api/c++
