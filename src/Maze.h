@@ -15,10 +15,9 @@ public:
 	}
 
 private:
-	int element = 0;
 	const uint8_t width;
 	const uint8_t length;
-	const std::vector<uint8_t, uint8_t> ground;
+	const std::vector<std::vector<uint8_t>> ground;
 };
 
 #endif // MAZE_H_
